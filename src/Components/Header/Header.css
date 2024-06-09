@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  padding-top: 20px;
+}
+.header__list {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: 300px;
+}
+.header__link {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.header__logoo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.header__buttons {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  margin-left: auto;
+  padding-right: 50px;
+}
+.header__login {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #fff;
+}
+.header__signup {
+  color: #fff;
+  margin-top: auto;
+  margin-bottom: auto;
+  border: 0px;
+  padding: 10px;
+  background: linear-gradient(to right, #58217c, #2a1571);
+  border-radius: 5px;
+}/*# sourceMappingURL=Header.css.map */

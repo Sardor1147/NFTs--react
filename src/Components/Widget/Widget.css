@@ -1,0 +1,112 @@
+.widget__head {
+  font-family: Ruda;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38.94px;
+  color: #fff;
+}
+.widget__heads {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+.widget__txt {
+  color: #fff;
+  width: 290px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.widget__btn {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #fff;
+  width: 130px;
+  height: 40px;
+  border: 1px solid #9b0674;
+}
+.widget__images {
+  display: flex;
+  justify-content: space-between;
+}
+.widget__eyes {
+  margin-top: 150px;
+  color: #fff;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.widget__img {
+  margin-top: 100px;
+  height: 200px;
+  width: 230px;
+}
+.widget__img1 {
+  width: 373px;
+  height: 390px;
+}
+.widget__img2 {
+  margin-top: 100px;
+  height: 215px;
+  transform: translateX(20px);
+}
+.widget__part--head {
+  margin-left: 27%;
+  font-family: Ruda;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.42px;
+  text-align: left;
+  color: #fff;
+}
+.widget__list {
+  width: 1100px;
+  display: flex;
+  list-style: none;
+  background-color: #211538;
+  color: #fff;
+  margin-top: 100px;
+  border-radius: 8px;
+}
+.widget__item {
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  margin-top: 30px;
+  height: 300px;
+}
+.widget__item1 {
+  width: 280px;
+  height: 300px;
+  background-color: #301c49;
+  transform: translateY(-60px);
+  border: 2px solid rgba(90, 25, 244, 0.3019607843);
+  border-radius: 8px;
+}
+.widget__item--img {
+  margin-left: 60px;
+  width: 90px;
+  height: 90px;
+}
+.widget__item--head {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32.68px;
+  margin-left: 30px;
+}
+.widget__item--txt {
+  font-family: Open Sans;
+  font-size: 14px;
+  width: 255px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+}/*# sourceMappingURL=Widget.css.map */

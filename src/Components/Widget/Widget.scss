@@ -1,0 +1,114 @@
+@import "../../Assets/sass/mixin.scss";
+
+.widget {
+  &__head {
+    font-family: Ruda;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.94px;
+    color: #fff;
+  }
+  &__heads {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__txt {
+    color: #fff;
+    width: 290px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+  &__btn {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-align: center;
+    @include center();
+    color: #fff;
+    width: 130px;
+    height: 40px;
+    border: 1px solid #9b0674;
+  }
+  &__images {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__eyes {
+    margin-top: 150px;
+    color: #fff;
+    @include center();
+  }
+  &__img {
+    margin-top: 100px;
+    height: 200px;
+    width: 230px;
+  }
+  &__img1 {
+    width: 373px;
+    height: 390px;
+  }
+  &__img2 {
+    margin-top: 100px;
+    height: 215px;
+    transform: translateX(20px);
+  }
+
+  &__part--head {
+    margin-left: 27%;
+    font-family: Ruda;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.42px;
+    text-align: left;
+    color: #fff;
+  }
+  &__list {
+    width: 1100px;
+    display: flex;
+    list-style: none;
+    background-color: #211538;
+    color: #fff;
+    margin-top: 100px;
+    border-radius: 8px;
+  }
+  &__item {
+    @include middle();
+    width: 280px;
+    margin-top: 30px;
+    height: 300px;
+  }
+  &__item1 {
+    width: 280px;
+    height: 300px;
+    background-color: #301c49;
+    transform: translateY(-60px);
+    border: 2px solid #5a19f44d;
+    border-radius: 8px;
+  }
+  &__item--img {
+    margin-left: 60px;
+    width: 90px;
+    height: 90px;
+  }
+  &__item--head {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32.68px;
+    margin-left: 30px;
+  }
+  &__item--txt {
+    font-family: Open Sans;
+    font-size: 14px;
+    width: 255px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+  }
+}

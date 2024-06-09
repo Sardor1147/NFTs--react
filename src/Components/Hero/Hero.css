@@ -1,0 +1,75 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+.hero__content {
+  width: 450px;
+}
+.hero__head {
+  font-family: Ruda;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 82px;
+  color: white;
+}
+.hero__span {
+  color: #7939a3;
+}
+.hero__txt {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: white;
+}
+.hero__video, .hero__explore {
+  color: white;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  text-align: left;
+}
+.hero__explore {
+  padding: 16px;
+  border: 0px;
+  border-radius: 4px;
+  background: linear-gradient(to right, #411162, #180a49);
+}
+.hero__video--img {
+  width: 55px;
+  height: 55px;
+  transform: translateY(20px);
+}
+.hero__video {
+  margin-left: 50px;
+}
+.hero__btns {
+  margin-top: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.hero__tab {
+  margin-top: 70px;
+}
+.hero__images {
+  margin-left: auto;
+}
+.hero__cat {
+  margin-bottom: 80px;
+}
+.hero__space {
+  transform: translateX(160px);
+  margin-bottom: 170px;
+}
+.hero__skelet {
+  transform: translateY(100px);
+  margin-left: 220px;
+}
+.hero__face {
+  margin-bottom: 200px;
+}
+.hero__face--red {
+  margin-bottom: 330px;
+  transform: translateX(19px);
+}/*# sourceMappingURL=Hero.css.map */

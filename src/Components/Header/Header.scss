@@ -1,0 +1,46 @@
+@import "../../Assets/sass/mixin.scss";
+
+.header {
+  display: flex;
+  padding-top: 20px;
+  &__list {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 300px;
+  }
+  &__link {
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16px;
+    @include center();
+  }
+  &__logoo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    @include center();
+  }
+  &__buttons {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    margin-left: auto;
+    padding-right: 50px;
+  }
+  &__login {
+    @include center();
+    color: #fff;
+  }
+  &__signup {
+    color: #fff;
+    @include center();
+    border: 0px;
+    padding: 10px;
+    background: linear-gradient(to right, #58217c, #2a1571);
+    border-radius: 5px;
+  }
+}

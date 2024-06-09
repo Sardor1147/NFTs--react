@@ -1,0 +1,115 @@
+@import "../../Assets/sass/mixin.scss";
+.top {
+  &__head {
+    margin-top: 150px;
+    text-align: center;
+    color: #fff;
+    font-family: Ruda;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.42px;
+  }
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  }
+  &__item {
+    width: 350px;
+    height: 400px;
+    border: 1px solid #5a19f4b8;
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+  &__images--wrapper {
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+  }
+  &__img1 {
+    height: 310px;
+  }
+  &__images {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-around;
+  }
+  &__img3 {
+    opacity: 0.6;
+  }
+  &__move {
+    color: #fff;
+    margin-left: 29px;
+    transform: translateY(-55px);
+  }
+  &__content--wrapper {
+    height: 60px;
+    display: flex;
+    color: #fff;
+  }
+  &__arrow {
+    color: #fff;
+    font-size: 30px;
+    margin-left: auto;
+    margin-top: 40px;
+  }
+  &__item--head {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.24px;
+    text-align: left;
+    color: #fff;
+  }
+  &__btn {
+    margin-left: 700px;
+    padding: 15px 30px 15px 30px;
+    background: linear-gradient(to right, #c822e44d, #5719f44d);
+    border-radius: 4px;
+    font-family: Ruda;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.91px;
+  }
+  &__list1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  &__item1 {
+    width: 310px;
+    height: 125px;
+    padding: 20px;
+    padding-right: 50px;
+    margin-top: 20px;
+    border: 0px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #424141;
+  }
+  &__item1--head {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    text-align: left;
+    color: #fff;
+  }
+  &__item1--span {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    color: #a9a8a8;
+  }
+  &__item1:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      104.35deg,
+      rgba(179, 33, 231, 0.4) 29.82%,
+      rgba(105, 27, 242, 0.4) 97.24%
+    );
+  }
+}
